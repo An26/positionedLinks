@@ -1,0 +1,56 @@
+/*class names and elements are organized via alaphabetical order*/
+
+body {
+    background: #F5A36C;
+    background-image: url('./images/rickAndMorty.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 726px 394px;
+    font-family: 'Bungee', cursive;
+    color: #98D9D9;
+}
+
+h1 {
+     text-shadow: 2px 2px #ff0000;
+}
+
+
+.findHeads {
+    width: 726px;
+    height: 394px;
+
+    position: absolute;
+    left: 50%;
+    top: 50%; 
+    margin-left: -364px;
+    margin-top: -197px;
+}
+
+.morty a{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 192px;
+    left: 163px;
+    z-index: 1;
+    text-align: center;   
+}
+
+.rick a{
+    width: 163px;
+    height: 253px;
+    position: absolute;
+    top: 0px;
+    left: 379px;
+    z-index: 1;
+    text-align: center;
+    
+}
+
+@media only screen and (max-width: 690px) {
+    body {
+        background-color: #fff;
+        background-image: url("");
+    }
+}
